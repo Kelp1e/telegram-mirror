@@ -5,7 +5,7 @@ This Python script, powered by Telethon, allows you to aggregate messages from a
 ## Features
 
 - **Message Aggregation**: Automatically collects messages from multiple groups and channels into a centralized channel.
-- **Effortless Setup**: Simply set up your Telethon API credentials and customize the script according to your preferences.
+- **Effortless Setup**: Simply set up your Telethon API credentials.
 - **Easy Deployment**: Deploy the bot on any compatible server or cloud platform.
 
 ## Getting Started
