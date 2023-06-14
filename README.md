@@ -11,8 +11,8 @@ This Python script, powered by Telethon, allows you to aggregate messages from a
 ## Getting Started
 
 1. Clone this repository to your local machine `git clone https://github.com/Kelp1e/telegram-mirror.git`.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Configure the Telethon API credentials in the `.env` file.
+2. Create an `.env` file based on the `.env.example` file and configure it.
+3. Install the required dependencies by running `pip install -r requirements.txt`.
 4. Run the script using `python main.py` and start aggregating messages.
 
 ## Contributing
