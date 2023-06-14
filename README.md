@@ -1,6 +1,6 @@
 # Telethon Bot: Your Channel Aggregator
 
-This Python script, powered by Telethon, allows you to aggregate messages from all the groups you are subscribed to into a single channel. It serves as a convenient channel aggregator, bringing all the important messages together in one place.
+This **Python** script, powered by **Telethon**, allows you to aggregate messages from all the groups you are subscribed to into a single channel. It serves as a convenient channel aggregator, bringing all the important messages together in one place.
 
 ## Features
 
