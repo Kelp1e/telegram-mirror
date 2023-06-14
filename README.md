@@ -15,7 +15,7 @@ To get started with the **Telethon Bot**, you have two options: running it direc
 ### Running on Your Machine
 1. Clone this repository to your local machine `git clone https://github.com/Kelp1e/telegram-mirror.git`.
 2. Create an `.env` file based on the `.env.example` file and configure it.
-3. Create and activate a virtual environment `python -m venv venv && venv/Scripts/activate`
+3. Create and activate a virtual environment `python -m venv venv ; venv/Scripts/activate`
 4. Install the required dependencies by running `pip install -r requirements.txt`.
 5. Run the script using `python main.py` and start aggregating messages.
 
