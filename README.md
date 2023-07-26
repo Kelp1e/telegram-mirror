@@ -1,15 +1,12 @@
 # Telethon Bot: Your Channel Aggregator
-
 This **Python** script, powered by **Telethon**, allows you to aggregate messages from all the groups you are subscribed to into a single channel. It serves as a convenient channel aggregator, bringing all the important messages together in one place.
 
 ## Features
-
 - **Message Aggregation**: Automatically collects messages from multiple groups and channels into a centralized channel.
 - **Effortless Setup**: Simply set up your Telethon API credentials.
 - **Easy Deployment**: Deploy the bot on any compatible server or cloud platform.
 
 ## Getting Started
-
 To get started with the **Telethon Bot**, you have two options: running it directly on your machine or using **Docker**.
 
 ### Running on Your Machine
@@ -26,7 +23,5 @@ To get started with the **Telethon Bot**, you have two options: running it direc
 4. Build the **Docker** image `docker build -t telegram-mirror .`
 5. After the image is built successfully, run the **Telethon Bot** inside a **Docker** container `docker run -it telegram-mirror`
 
-
 ## Contributing
-
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
