@@ -18,7 +18,7 @@ main_channel_id = normalize_id(int(os.getenv("MAIN_CHANNEL_ID")))
 
 async def get_channels():
     channels = [
-        dialog.title
+        dialog.id
         for dialog in (await client.get_dialogs())
         if isinstance(dialog.entity, Channel) and dialog.id != main_channel_id
     ]
@@ -28,6 +28,8 @@ async def get_channels():
 
 async def forward_message(event):
     await client.forward_messages(main_channel_id, event.message)
+
+    await client.send_read_acknowledge(event.chat_id)  # Read the messages
 
 
 async def main():
