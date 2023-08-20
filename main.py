@@ -1,3 +1,4 @@
+import logging
 import os
 
 from dotenv import load_dotenv
@@ -5,6 +6,8 @@ from telethon import TelegramClient, events
 from telethon.tl.types import Channel
 
 from normalize_id import normalize_id
+
+logging.basicConfig(filename="info.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 load_dotenv()
 
@@ -41,5 +44,12 @@ async def main():
 
 
 if __name__ == '__main__':
-    with client:
-        client.loop.run_until_complete(main())
+    logging.info(f"api_id: {api_id}")
+    logging.info(f"api_hash: {api_hash}")
+    logging.info(f"main_channel_id: {main_channel_id}")
+
+    try:
+        with client:
+            client.loop.run_until_complete(main())
+    except Exception as error:
+        logging.exception(error)
